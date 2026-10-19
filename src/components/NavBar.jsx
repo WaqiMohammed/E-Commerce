@@ -5,11 +5,11 @@ const NavBar = () => {
   return (
     <div className='bg-digital-blue-950 text-digital-blue-50 p-5 flex justify-around items-center'>
 
-      <div className='w-10 object-cover'>
-        <img className='rounded-full' src="https://i.pinimg.com/736x/43/d4/c5/43d4c5920ea5256e9180aa0169c806fe.jpg" alt="" />
+      <div className='size-auto object-cover'>
+        <img className='rounded-full' src="" alt="Zaraiya logo" />
       </div>
 
-      <div className='bg-digital-blue-50 text-black w-270  p-2 rounded-full flex justify-evenly'>
+      <div className='bg-digital-blue-50 text-digital-blue-900 w-270  p-2 rounded-full flex justify-evenly'>
         <input className='w-full focus:outline-none' type="text" placeholder='Search product, brands and more...'/>
         <div className='cursor-pointer'><Mic /></div>
       </div>
