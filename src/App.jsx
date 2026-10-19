@@ -7,8 +7,6 @@ function App() {
     <div>
       <NavBar />
       <CatagoryNav />
-      <div className='font-Arapey bg-digital-blue-500 h-20 w-20'>hello</div>
-      <div>hello</div>
     </div>
   );
 }
