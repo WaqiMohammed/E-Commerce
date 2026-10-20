@@ -1,22 +1,21 @@
 @font-face {
-    font-family: Arapey;
-    src: url(assets/fonts/Arapey-Regular.ttf);
+  font-family: Arapey;
+  src: url(assets/fonts/Arapey-Regular.ttf);
 }
 @import "tailwindcss";
 
-@theme{
-    --font-Arapey : Arapey , serif;
+@theme {
+  --font-Arapey: Arapey, serif;
 
-    --color-digital-blue-50: #e5f0ff;
-    --color-digital-blue-100: #cce0ff;
-    --color-digital-blue-200: #99c2ff;
-    --color-digital-blue-300: #66a3ff;
-    --color-digital-blue-400: #3385ff;
-    --color-digital-blue-500: #0066ff;
-    --color-digital-blue-600: #0052cc;
-    --color-digital-blue-700: #003d99;
-    --color-digital-blue-800: #002966;
-    --color-digital-blue-900: #001433;
-    --color-digital-blue-950: #000e24;
-
+  --color-digital-blue-50: #ebfafa;
+  --color-digital-blue-100: #d7f4f4;
+  --color-digital-blue-200: #aeeaea;
+  --color-digital-blue-300: #86dfdf;
+  --color-digital-blue-400: #5ed4d4;
+  --color-digital-blue-500: #36c9c9;
+  --color-digital-blue-600: #2ba1a1;
+  --color-digital-blue-700: #207979;
+  --color-digital-blue-800: #155151;
+  --color-digital-blue-900: #0b2828;
+  --color-digital-blue-950: #071c1c;
 }
