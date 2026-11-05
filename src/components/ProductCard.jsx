@@ -1,6 +1,6 @@
 import { HeartPlus } from 'lucide-react';
 
-const productcard = () => {
+const productcard = (props) => {
   return (
   <div className=' m-4 border-2 rounded-2xl overflow-hidden w-70 h-70'>
     <div className="relative h-70% w-full object-cover">
@@ -11,8 +11,8 @@ const productcard = () => {
     </div>
 
     <div className="ml-4">
-        <h4 className='font-bold' >puma</h4>
-        <p>$29</p> 
+        <h4 className=' text-sm font-sans' >{props.title}</h4>
+        <p>${props.price}</p> 
     </div>
   
     <div className='flex justify-between gap-2'>
