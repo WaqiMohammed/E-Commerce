@@ -11,6 +11,7 @@ function App() {
     const getData = async () => {
       try {
         const res = await axios.get('https://dummyjson.com/products');
+        // const res = await axios.get('./components/data.js')
         setProducts(res.data.products);
       }catch (error) {
         console.log(error);
